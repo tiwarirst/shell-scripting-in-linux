@@ -1,0 +1,6 @@
+#!/bin/bash
+function F1()    # creation of function
+{
+echo 'I like programming'
+}
+F1   # calling of function
