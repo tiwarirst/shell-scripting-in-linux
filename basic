@@ -1,0 +1,4 @@
+#!/bin/bash
+echo namaste sansar
+echo -n "print without newline" //‘-n’ option is used to print any text without new line
+echo -e "print \t sansar" //‘-e’ option is used to remove backslash characters 
