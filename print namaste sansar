@@ -1,0 +1,13 @@
+//for printing this first we create a file 
+nano nmaste.sh
+//write the script in this file
+!#/bin/bash ///shebang. that tells the terminal to use the bash executable to run a script
+echo namaste sansar
+//now run this file 
+//there are two ways to run this file
+bash namaste.sh
+//this command a+x give the permission
+chmod a+x First.sh
+
+
+
