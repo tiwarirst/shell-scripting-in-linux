@@ -1,0 +1,14 @@
+#!/bin/bash
+valid=true  #creating a varible and assigned them true
+count=1   #count initialises with one
+# here every space ha s a meaning 
+while [ $valid ]   #singel big bracket is used to check the condition.
+do        # while loop started
+echo $count
+if [ $count -eq 5 ];   #after if condition ; care of this  .-eq means  equal to
+then      # it is when condition is true then do 
+break
+fi  #work as else
+((count++))     #arithmetic expression simple counter
+done     #while loop end
+# output is 1 to 5
