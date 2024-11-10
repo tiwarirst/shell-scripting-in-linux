@@ -1,0 +1,4 @@
+#!/bin/bash
+Str="bolo siyawar ram chandra ki jay"
+subStr=${Str:6:5}  # ${variable:start_position:length} substr is a variable which store the sub string value
+echo $subStr
