@@ -1,0 +1,10 @@
+#!/bin/bash
+function greeting() {
+
+str="Hello, $name"
+echo $str      #return this string
+}
+echo "Enter your name"
+read name
+val=$(greeting)    #you can also pass the arguemnet
+echo "Return value of the function is $val"
