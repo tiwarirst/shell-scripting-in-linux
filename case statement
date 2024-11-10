@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo "Enter your token number"
+read n
+case $n in                      # 'in' is the beginning of the pattern matching section
+101)
+echo "You got 1st prize" ;; #  we use double colon
+510)
+echo "You got 2nd prize" ;;
+999)
+echo "You got 3rd prize" ;;
+*)  #default case
+echo "Sorry, try for the next time" ;;
+esac   # end of case statement
+
+
+
+
+# choosing color 
+#!/bin/bash
+
+echo "Enter a color:"
+read color
+
+case "$color" in
+    red|blue|green)
+        echo "You chose a primary color."
+        ;;
+    yellow|orange|purple)
+        echo "You chose a secondary color."
+        ;;
+    *)
+        echo "That's not a recognized color."
+        ;;
+esac
