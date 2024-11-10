@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Enter Your Name"
+read name   #take user input which is stored in name variable
+echo "Welcome $name to My era" 
