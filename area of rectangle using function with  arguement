@@ -1,0 +1,6 @@
+#!/bin/bash
+Rectangle_Area() {
+area=$(($1 * $2))        #1 and 2 numbering are used to represent the number of parameter
+echo "Area is : $area"
+}
+Rectangle_Area 3 4
