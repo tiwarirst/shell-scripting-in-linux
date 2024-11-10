@@ -1,0 +1,6 @@
+#!/bin/bash
+#here we use  for comment
+# add two numweric value
+((sum=23+34))  # small double bracket is used for arithmetic expression
+# print the sum
+echo $sum    # $sum is used to print the value of variable
