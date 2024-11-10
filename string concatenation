@@ -1,0 +1,8 @@
+#!/bin/bash
+
+string1="make"
+string2="yourself"
+echo "$string1$string2"
+string3=$string1+$string2  # concate above two
+string3+=" feel proud"  # add one more
+echo $string3
